@@ -1,0 +1,13 @@
+#principal{
+   color: green;
+   font-weight: bold;
+}
+#principal::after{
+    content: ""; /* Contenido vacío para el seudoelemento */
+    position: absolute; /* Establecer posición absoluta */
+    left: 0; /* Alinear a la izquierda */
+    bottom: -2px; /* Mover hacia abajo */
+    width: 100%; /* Ancho completo */
+    height: 2px; /* Altura del subrayado */
+    background-color: black; /* Color del subrayado */
+}
